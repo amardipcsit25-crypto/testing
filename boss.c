@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-    printf("enter the numbers that you want to give: ");
-    int subtr;
-    scanf("%d",&sub);
-  printf
+  int num1,num2;
+    printf("enter two numbers: ");
+    scanf("%d%d",&num1,&num2);
+    printf("the result is: %d",num1-num2);
+    return 0;
 }
